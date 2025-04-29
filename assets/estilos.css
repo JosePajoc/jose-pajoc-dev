@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background: radial-gradient(circle, rgb(224, 222, 222),rgb(156, 184, 245),blue);
+    background: radial-gradient(circle,rgb(156, 184, 245), #4A90E2,rgb(47, 47, 243));
     height: 100vh;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -9,7 +9,7 @@ body{
     width: 65vw;
     height: 40px;
     margin: 5px auto;
-    background-color: blue;
+    background-color: #4585ce;
     border: 1px solid white;
     border-top-left-radius: 3px;
     border-top-right-radius: 5px;
@@ -35,7 +35,7 @@ a{
 }
 
 .opcionMenu:hover{
-    background-color: rgb(156, 184, 245);
+    background-color: #4A90E2;
     color: white;
     border-color: white;
 }
@@ -67,7 +67,7 @@ a{
 }
 
 .tarjeta:hover, #menu:hover{
-    box-shadow: 5px 5px 10px 5px gray;
+    box-shadow: 5px 5px 10px 6px rgb(39, 39, 39);
 }
 
 .contenido-descrpcion{
