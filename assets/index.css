@@ -1,0 +1,11 @@
+.contenido-inicio{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.icon-inicio{
+    margin: 0 10px;
+}
+.icon-inicio:link, .icon-inicio:visited{
+    color: grey;
+}

@@ -7,7 +7,7 @@ body{
 }
 
 #menu{
-    width: 65vw;
+    width: 55vw;
     height: 40px;
     margin: 5px auto;
     background-color: #4585ce;
@@ -43,7 +43,7 @@ a:link, a:visited{
 }
 
 #proyectos{
-    width: 65vw;
+    width: 55vw;
     margin: 0 auto;
     margin-top: 20px;
     display: flex;
@@ -53,8 +53,8 @@ a:link, a:visited{
 }
 
 .tarjeta{
-    width: 20vw;
-    height: 420px;
+    width: 25vw;
+    height: 390px;
     background-color: #F2F0EB;
     text-align: center;
     margin-bottom: 20px;
@@ -68,12 +68,19 @@ a:link, a:visited{
     border-radius: 5px;
 }
 
+.color-fondo-imagen{
+    background-color: #4585ce;
+    padding: 5px;
+    border-radius: 5px;
+}
+
 .tarjeta:hover, #menu:hover{
     box-shadow: 5px 5px 10px 6px rgb(39, 39, 39);
 }
 
-.contenido-descrpcion{
-    margin: 15px;
+/* descripción de las tarjetas con proyectos */
+.contenido-descrpcion{ 
+    margin: 5px 15px;
     text-align: justify;
     font-size: 15px;
 }
