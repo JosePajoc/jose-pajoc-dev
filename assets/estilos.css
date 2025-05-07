@@ -63,7 +63,8 @@ a:link, a:visited{
 }
 
 .tarjeta{
-    width: 25vw;
+    width: 24vw;
+    max-width: 24vw;
     height: 390px;
     background-color: #F2F0EB;
     text-align: center;
