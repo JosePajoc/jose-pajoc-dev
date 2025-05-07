@@ -1,8 +1,9 @@
 body{
     margin: 0;
-    background-color: grey;
+    background-color: rgb(158, 157, 157);
     background-image: url(imagenes/fondo.jpeg);
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
+    background-position: center;
     background-attachment: fixed;
     color: rgb(112, 111, 111);
     height: 100vh;
@@ -93,4 +94,5 @@ a:link, a:visited{
     margin: 5px 15px;
     text-align: justify;
     font-size: 15px;
+    overflow: auto;
 }
