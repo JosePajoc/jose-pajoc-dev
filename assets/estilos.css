@@ -70,8 +70,8 @@ a:link, a:visited{
     text-align: center;
     margin-bottom: 20px;
     border-radius: 7px;
-    transition: box-shadow 0.5s ease;
-    overflow: auto;
+    transition: box-shadow 0.5s ease, transform 0.5s ease;
+    overflow: hidden;
 }
 
 .img-tarjeta{
@@ -90,6 +90,12 @@ a:link, a:visited{
 .tarjeta:hover, #menu:hover{
     box-shadow: 5px 5px 10px 6px rgb(143, 143, 143);
 }
+
+.tarjeta:hover{
+    overflow: auto;
+    transform: scale(1.02);
+}
+
 
 /* descripción de las tarjetas con proyectos */
 .contenido-descrpcion{ 

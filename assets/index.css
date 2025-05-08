@@ -9,3 +9,12 @@
 .icon-inicio:link, .icon-inicio:visited{
     color: grey;
 }
+
+.icono-guias{
+    border-radius: 5px;
+    transition: box-shadow 0.5s ease;
+}
+
+.icono-guias:hover{
+    box-shadow: 5px 5px 10px 6px rgb(143, 143, 143);
+}
