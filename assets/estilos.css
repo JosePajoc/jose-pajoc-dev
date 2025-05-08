@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: rgb(158, 157, 157);
+    background-color: rgb(85, 85, 85);
     background-image: url(imagenes/fondo.jpeg);
     background-repeat: repeat-y;
     background-position: center;
@@ -63,7 +63,7 @@ a:link, a:visited{
 }
 
 .tarjeta{
-    width: 24vw;
+    width: 23vw;
     max-width: 24vw;
     height: 390px;
     background-color: #F2F0EB;
@@ -71,6 +71,7 @@ a:link, a:visited{
     margin-bottom: 20px;
     border-radius: 7px;
     transition: box-shadow 0.5s ease;
+    overflow: auto;
 }
 
 .img-tarjeta{
@@ -95,5 +96,4 @@ a:link, a:visited{
     margin: 5px 15px;
     text-align: justify;
     font-size: 15px;
-    overflow: auto;
 }
