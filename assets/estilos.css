@@ -51,7 +51,7 @@ a:link, a:visited{
 }
 
 
-
+/* Espacio tarjetas de datos y proyectos */
 #proyectos{
     width: 55vw;
     margin: 0 auto;
@@ -80,6 +80,7 @@ a:link, a:visited{
     border-radius: 5px;
 }
 
+/* Tarjeta de proyectos */
 .color-fondo-imagen{
     background-color: rgb(77, 76, 76);
     padding: 5px;
@@ -102,4 +103,37 @@ a:link, a:visited{
     margin: 5px 15px;
     text-align: justify;
     font-size: 15px;
+}
+
+@media(max-width: 800px){
+    body{
+        background-image: none;
+    }
+
+    #menu{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .opcionMenu{
+        width: 85%;
+    }
+
+    /* Espacio tarjetas de datos y proyectos */
+    #proyectos{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tarjeta{
+        width: 100%;
+        max-width: none;
+        height: 50vh;
+        
+    }
 }
