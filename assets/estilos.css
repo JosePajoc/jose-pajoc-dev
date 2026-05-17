@@ -1,7 +1,6 @@
 body{
     margin: 0;
-    background-color: rgb(85, 85, 85);
-    background-image: url(imagenes/fondo.jpeg);
+    background-color: rgb(100, 100, 100);
     background-repeat: repeat-y;
     background-position: center;
     background-attachment: fixed;
@@ -11,7 +10,7 @@ body{
 }
 
 #menu{
-    width: 55vw;
+    width: 65vw;
     height: 40px;
     margin: 10px auto;
     background-color: rgb(77, 76, 76);
@@ -53,7 +52,7 @@ a:link, a:visited{
 
 /* Espacio tarjetas de datos y proyectos */
 #proyectos{
-    width: 55vw;
+    width: 60vw;
     margin: 0 auto;
     margin-top: 20px;
     display: flex;
@@ -63,7 +62,7 @@ a:link, a:visited{
 }
 
 .tarjeta{
-    width: 23vw;
+    width: 25vw;
     max-width: 24vw;
     height: 390px;
     background-color: #F2F0EB;
@@ -72,6 +71,12 @@ a:link, a:visited{
     border-radius: 7px;
     transition: box-shadow 0.5s ease, transform 0.5s ease;
     overflow: hidden;
+    h2{
+        margin-bottom: 0;
+    }
+    h2, p{
+        padding: 5px;
+    }
 }
 
 .img-tarjeta{
@@ -92,11 +97,11 @@ a:link, a:visited{
     box-shadow: 5px 5px 10px 6px rgb(143, 143, 143);
 }
 
+/* Barra de desplazamiento */
 .tarjeta:hover{
     overflow: auto;
-    transform: scale(1.02);
+    scrollbar-width: thin;
 }
-
 
 /* descripción de las tarjetas con proyectos */
 .contenido-descrpcion{ 

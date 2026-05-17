@@ -15,7 +15,7 @@
     transition: filter 0.3s ease;
 }
 
+/* Sombras para svg */
 .icono-guias:hover{
     filter: drop-shadow(7px 7px 4px gray);
-    /* box-shadow: 5px 5px 10px 6px rgb(143, 143, 143); */
 }
