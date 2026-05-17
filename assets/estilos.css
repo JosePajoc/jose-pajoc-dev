@@ -39,7 +39,7 @@ a:link, a:visited{
     transition: background-color 1s ease;
 }
 
-.opcionMenu:link, .opcionMenu:visited{
+.opcionMenu:link, .opcionMenu:visited, #miCorreo:link, #miCorreo:visited{
     color:  rgb(112, 111, 111);
 }
 
