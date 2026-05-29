@@ -52,7 +52,7 @@ a:link, a:visited{
 
 /* Espacio tarjetas de datos y proyectos */
 #proyectos{
-    width: 60vw;
+    width: 63vw;
     margin: 0 auto;
     margin-top: 20px;
     display: flex;
@@ -63,8 +63,8 @@ a:link, a:visited{
 
 .tarjeta{
     width: 25vw;
-    max-width: 24vw;
-    height: 390px;
+    max-width: 25vw; /* controlar máximo para pantallas grandes*/
+    height: 375px;
     background-color: #F2F0EB;
     text-align: center;
     margin-bottom: 20px;
@@ -75,7 +75,8 @@ a:link, a:visited{
         margin-bottom: 0;
     }
     h2, p{
-        padding: 5px;
+        padding: 10px;
+        margin: 0 10px;
     }
 }
 
@@ -108,6 +109,13 @@ a:link, a:visited{
     margin: 5px 15px;
     text-align: justify;
     font-size: 15px;
+}
+
+.guias{
+    width: 70vw;
+    max-width: 70vw;
+    height: auto;
+    padding-bottom: 10px;
 }
 
 @media(max-width: 800px){
